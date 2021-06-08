@@ -14,7 +14,7 @@ from email.mime.text import MIMEText
 
 
 
-API_KEY = '501182282:AAH8yf5rehcqk1IImi4ACM5rPM-RPkOGpFs'
+API_KEY = '<your_api_key>'
 bot = telebot.TeleBot(API_KEY)
 list_feasible =[]
 @bot.message_handler()
@@ -64,9 +64,9 @@ def send_email(name):
     
     subject = "An email with attachment from Python"
     body = "This is an email with attachment sent from Python"
-    sender_email = "aneeskindle@gmail.com"
-    receiver_email = "ANEES870_SCL0RT@KINDLE.COM"
-    password = "treelover123"
+    sender_email = "<your_email>"
+    receiver_email = "<your_kindle_email>"
+    password = "<your_email's_password>"
 
     # Create a multipart message and set headers
     message = MIMEMultipart()
