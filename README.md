@@ -5,3 +5,5 @@ this works with the telegram bot @allotherusernamesweretaken_bot.The purpose of 
 the video file of the test shows how it works on my laptop, but actual implementation will be on a personal server.
 
 if you wish to use this code for your projects, kindly change the api key to the one from your telegram bot, and similarly change the emails as the application might be. 
+
+currently auto_calibre.py is completed and oop will be completed soon
